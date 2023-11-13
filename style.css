@@ -1,0 +1,92 @@
+body {
+  background-color: rgb(243, 247, 248);
+}
+
+h1, h2, h3 {
+  font-family: 'DM Serif Display', serif;
+  font-size: 1.5em;
+  line-height: 1.5px;
+}
+
+a {
+  text-decoration: none;
+  color: #fbfbfb;
+}
+
+a:hover {
+  color: blueviolet;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+.purple-link {
+  background-color: #9f4fa8;
+  color: #ffffff;
+  font-size: 1.5em;
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #efedf0;
+  border-radius: 4px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.round-img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+ul {
+  padding-left: 0;
+}
+
+ul li {
+  display: inline;
+  font-size: 2em;
+}
+
+i {
+  color: #2b1a76;
+  padding: 10px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+  .purple-link {
+    font-size: 1em;
+  }
+  ul li {
+    display: block;
+  }
+  p {
+    font-size: 1em;
+  }
+}
