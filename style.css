@@ -1,33 +1,39 @@
 body {
-  background-color: rgb(243, 247, 248);
+  background-image: -webkit-linear-gradient(0deg, #f5ebff 0%, #fdfcfc 40%, #f9f0ff 100%);
+  font-family: 'Montserrat', serif;
+  color: #2e2929;
 }
 
 h1, h2, h3 {
   font-family: 'DM Serif Display', serif;
-  font-size: 1.5em;
-  line-height: 1.5px;
+  font-weight: 400;
+}
+
+h1 {
+  margin: 30px 0;
 }
 
 a {
+  color: #2b1a76;
   text-decoration: none;
-  color: #fbfbfb;
 }
 
-a:hover {
-  color: blueviolet;
+.portfolio-link>a {
+  border-radius: 12px;
+  background: transparent;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  color: #1e1e1e;
+  font-weight: 500;
+  font-size: 1em;
+  display: inline-block;
+  padding: 10px 66px;
+  margin-bottom: 30px;
 }
 
 p {
   font-size: 1.2em;
-}
-
-.purple-link {
-  background-color: #9f4fa8;
-  color: #ffffff;
-  font-size: 1.5em;
-  width: 50%;
-  margin: 0 auto;
-  padding: 10px;
+  line-height: 1.9em;
+  padding: 20px;
 }
 
 .container {
@@ -38,11 +44,11 @@ p {
 .card {
   background-color: white;
   border: 1px solid #efedf0;
-  border-radius: 4px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  box-shadow: rgba(146, 109, 167, 0.15) 1.95px 1.95px 2.6px;
   text-align: center;
   padding: 20px;
-  margin-bottom: 40px;
+  margin-top: 40px;
 }
 
 .round-img {
@@ -66,7 +72,7 @@ i {
 
 @media (max-width: 960px) {
   .container {
-    width: 700px;
+    width: 800px;
   }
 }
 
